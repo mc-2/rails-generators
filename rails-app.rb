@@ -124,7 +124,7 @@ rake "db:create"
 # Install devise
 #################################################
 generate "devise:install"
-route "devise_for :users"
+generate "devise User"
 
 
 #################################################
